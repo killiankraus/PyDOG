@@ -5,22 +5,7 @@
     <title>PyDOG</title>
 </head>
 <body>
-    {% extends 'base.html' %}
-    {%block content%}
-        <h1 style="color:gray"> DOGS </h1>
-        <div class="row">
-        {% for product in products %}
-            <div class="card" style="width: 18rem;margin:3%">
-                <img alt="..." class="card-img-top" src="{{ product.image_url }}">
-                <div class="card-body">
-                    <h5 class="card-title">{{ product.name }}</h5>
-                    <p class="card-text">₱ {{product.price}}</p>
-                    <a class="btn btn-primary" href="#">Get it Now</a>
-                </div>
-            </div>
-        {%endfor%}
-        </div>
-    {%endblock%}
+    <h1>hello</h1>
 
 </body>
 </html>
